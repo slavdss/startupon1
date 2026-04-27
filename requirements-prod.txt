@@ -1,0 +1,17 @@
+# Production Dependencies
+-r requirements.txt
+
+# Production Server
+gunicorn==21.2.0
+
+# Static files in production
+whitenoise==6.6.0
+
+# Database backup
+psycopg2-binary==2.9.9  # For PostgreSQL (optional)
+
+# Security
+django-cors-headers==4.3.1
+
+# Monitoring
+sentry-sdk==1.38.0
